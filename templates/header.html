@@ -1,0 +1,44 @@
+<!--
+Name: Mia Ehrlich
+Coding 06
+Purpose: This is the header template for a mobile first responsive site using bootstrap and jquery
+-->
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>{{pagetitle}}</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link rel="icon" href="favicon.ico" type="image/ico">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark mx-0 px-0 my-0 py-0 fixed-top">
+        <a href="index.html" class="navbar-brand">
+            <img class="header--logo-img w-25" src="images/logo.png" alt="logo">
+        </a>
+        <button type="button" class="navbar-toggler mr-2" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav nav-fill w-100">
+                <li class="nav-item">
+                    <a href="index.php" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="contact.php" class="nav-link">Contact</a>
+                </li>
+                <li class="nav-item">
+                    <a href="gallery.php" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a href="https://www.austinpetsalive.org/adopt" class="nav-link">Adopt</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
